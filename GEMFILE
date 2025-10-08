@@ -1,0 +1,2 @@
+
+gem "bitproto", :git=>"https://github.com/ChenMeng1365/bitproto.git"
