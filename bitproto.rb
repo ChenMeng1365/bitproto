@@ -1,4 +1,5 @@
 require 'bitop'
+require 'bitmark'
 require 'bitstream'
 
 module BitProtocol
