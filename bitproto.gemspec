@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "bit-protocol"
-  spec.version       = '1.0.1'
+  spec.version       = '1.1.0'
   spec.authors       = ["Matt"]
   spec.email         = ["matthrewchains@gmail.com","18995691365@189.cn"]
   spec.license       = "AGPL-3.0"
@@ -12,7 +12,8 @@ Gem::Specification.new do |spec|
   spec.files         = [
     'bitop',
     'bitstream',
-    'bitproto'
+    'bitproto',
+    'bitmark'
   ].map{|file|"#{file}.rb"} + Dir["document/*"] + ["README.md", "LICENSE", "GEMFILE"]
 
   # spec.bindir        = ""
